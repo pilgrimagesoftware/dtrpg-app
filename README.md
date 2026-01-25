@@ -1,3 +1,3 @@
-# DriveThruRPG client
+# DriveThruRPG application
 
-Meta-repository to organize DTRPG clients
+Meta-repository to organize DTRPG desktop applications
