@@ -1,6 +1,6 @@
 [submodule "rust"]
 	path = rust
-	url = git@github.com:pilgrimagesoftware/dtrpg-client.rs.git
+	url = git@github.com:pilgrimagesoftware/dtrpg-app.rs.git
 [submodule "swift"]
 	path = swift
-	url = git@github.com:pilgrimagesoftware/dtrpg-client.swift.git
+	url = git@github.com:pilgrimagesoftware/dtrpg-app.swift.git
