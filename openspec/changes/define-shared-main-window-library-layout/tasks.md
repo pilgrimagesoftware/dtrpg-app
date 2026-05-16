@@ -11,5 +11,5 @@
 
 ## 3. Rollout Coordination
 
-- [ ] 3.1 Confirm Swift and Rust child specs both map all shared required regions
+- [x] 3.1 Confirm Swift and Rust child specs both map all shared required regions
 - [ ] 3.2 Confirm both frontends verify non-blocking sync and passive token-hiding behavior before declaring layout complete
