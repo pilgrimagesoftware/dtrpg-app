@@ -4,3 +4,6 @@
 [submodule "swift"]
 	path = swift
 	url = git@github.com:pilgrimagesoftware/dtrpg-app.swift.git
+[submodule "finder"]
+	path = finder
+	url = git@github.com:pilgrimagesoftware/dtrpg-finder
