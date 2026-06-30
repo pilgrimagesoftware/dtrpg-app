@@ -30,4 +30,4 @@
 - [x] 5.1 Add tests for shell state transitions and command routing without launching GPUI windows
 - [x] 5.2 Add a compile or smoke validation command for the GPUI executable
 - [x] 5.3 Run the Rust app validation commands and record any platform-specific requirements
-- [ ] 5.4 Update the parent `dtrpg-app` submodule reference only after the Rust app implementation is validated
+- [x] 5.4 Update the parent `dtrpg-app` submodule reference only after the Rust app implementation is validated
