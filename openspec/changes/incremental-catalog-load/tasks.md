@@ -26,4 +26,4 @@
 
 - [x] 5.1 Run `cargo test --all-features --workspace` and confirm all existing tests pass
 - [x] 5.2 Confirm the `TwoPageGateway` test in `sdk.rs` still passes (or adapt it to the new signature)
-- [ ] 5.3 Manually run the app and confirm the catalog populates with items before the load completes
+- [x] 5.3 Manually run the app and confirm the catalog populates with items before the load completes
