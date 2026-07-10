@@ -5,7 +5,7 @@
 
 ## 2. Child Implementation Reconciliation
 
-- [ ] 2.1 Reconcile the existing Rust child change
+- [x] 2.1 Reconcile the existing Rust child change
       (`dtrpg-app/rust/openspec/changes/catalog-remote-sync-reconciliation`) against this
       shared capability: confirm every shared scenario is covered by its specs, and adjust
       its proposal to reference this parent capability rather than independently defining
