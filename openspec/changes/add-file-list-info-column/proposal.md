@@ -7,7 +7,8 @@ out. A per-format "Info" summary answers that at a glance.
 
 ## What Changes
 
-- Add an "Info" column to the detail tab's multi-item file list, after Status.
+- Add an "Info" column to the detail tab's multi-item file list, after Size, moving Status to the
+  last column.
 - For PDF files: show page count.
 - For Zip archives: show the number of contained files (reusing the same archive-reading path as
   the existing zip-content-preview hover).

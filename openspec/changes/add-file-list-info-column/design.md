@@ -61,9 +61,11 @@ counting via xref tables has enough edge cases (compressed xref streams, lineari
 malformed trailers from third-party publishers) that a maintained crate is worth the dependency
 weight over a bespoke regex/byte-scan approach that will accumulate special-casing.
 
-**Column position: after Status, not before Type.** Info is supplementary detail, not identity
-(Name) or primary classification (Type) - matches how Size/Status already read as "more detail"
-progressively left to right.
+**Column position: after Size, with Status moved to the last column.** Info is supplementary
+detail, not identity (Name) or primary classification (Type), so it reads as "more detail"
+alongside Type/Size rather than before them. Status is kept last so the file list's rightmost
+column is always the download/availability indicator, regardless of how many detail columns
+precede it.
 
 **Unsupported/undownloaded files render an em dash, not a spinner or "N/A" label.** Consistent
 with `value_or_dash`'s existing convention elsewhere in this file, so the file list doesn't
