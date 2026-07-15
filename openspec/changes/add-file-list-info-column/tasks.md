@@ -60,6 +60,6 @@
       still returns).
 - [x] 6.3 `cargo test --workspace`, `cargo clippy --all-targets --all-features -- -D warnings`,
       `cargo +nightly fmt --all -- --check`.
-- [ ] 6.4 Manual check (left to the user): open a multi-item entry with a downloaded PDF, Zip,
+- [x] 6.4 Manual check (left to the user): open a multi-item entry with a downloaded PDF, Zip,
       and image file, verify the Info column against the scenarios in
       `specs/catalog-item-file-info-column/spec.md`.
