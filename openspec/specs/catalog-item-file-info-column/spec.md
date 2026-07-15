@@ -1,7 +1,14 @@
-## ADDED Requirements
+# catalog-item-file-info-column Specification
 
+## Purpose
+Surfaces per-format file metadata (PDF page count, Zip contained-file count, image pixel
+dimensions) in the detail tab's multi-item file list, so users can distinguish similar files
+without opening them.
+
+## Requirements
 ### Requirement: Multi-item file list MUST show a per-format Info column
-The multi-item detail file list MUST include an Info column, positioned after Status, showing a
+The multi-item detail file list MUST include an Info column, positioned after Size and before
+Status (Status is the last column), showing a
 per-format metadata summary: page count for PDF files, contained file count for Zip archives,
 and pixel dimensions for image files. Formats without a defined Info value, and files not yet
 downloaded, MUST show an em dash rather than an error or blank cell.
