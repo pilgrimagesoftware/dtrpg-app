@@ -11,13 +11,22 @@
 
 ## 2. Sibling-Change Reconciliation
 
-- [ ] 2.1 Confirm `define-app-startup-workflow` archives (establishing the baseline
+- [x] 2.1 Confirm `define-app-startup-workflow` archives (establishing the baseline
       `resource-refresh-scheduling` spec) before or alongside this change, since this
       change's delta modifies requirements that only exist there today; rebase the delta
       here if the baseline requirement text changes before archiving.
-- [ ] 2.2 Check the in-progress `dtrpg-app/rust` scaffold `reduce-catalog-network-traffic`
+      Confirmed 2026-07-16: `define-app-startup-workflow` has not archived yet (0/19 tasks,
+      no entry under `openspec/specs/`), but its `resource-refresh-scheduling` delta text
+      still matches this change's MODIFIED requirement verbatim up to the added
+      cache-control clause — no drift, no rebase needed. Re-check before archiving either
+      change if that baseline text moves.
+- [x] 2.2 Check the in-progress `dtrpg-app/rust` scaffold `reduce-catalog-network-traffic`
       (currently empty) against this change's scope before it gains content, so it either
       absorbs this shared capability or is closed as superseded rather than duplicating it.
+      Confirmed 2026-07-16: no such change exists in `dtrpg-app.rs` (no directory, branch,
+      PR, or issue) — nothing to reconcile. If a change with this name is created later, its
+      author should scope it against `resource-*` capabilities defined here rather than
+      duplicating them.
 
 ## 3. Child Implementation
 
