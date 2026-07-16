@@ -23,10 +23,12 @@
 - [x] 2.2 Check the in-progress `dtrpg-app/rust` scaffold `reduce-catalog-network-traffic`
       (currently empty) against this change's scope before it gains content, so it either
       absorbs this shared capability or is closed as superseded rather than duplicating it.
-      Confirmed 2026-07-16: no such change exists in `dtrpg-app.rs` (no directory, branch,
-      PR, or issue) — nothing to reconcile. If a change with this name is created later, its
-      author should scope it against `resource-*` capabilities defined here rather than
-      duplicating them.
+      Corrected 2026-07-16: the scaffold did exist, but only as an uncommitted, untracked
+      `openspec/changes/reduce-catalog-network-traffic/` directory (a bare `.openspec.yaml`,
+      no proposal/tasks) in the `dtrpg-app/rust` working tree — invisible to a search of
+      committed branches, PRs, or issues. Resolved by deleting the empty scaffold and
+      proposing the Rust child change (task 3.1) fresh under a name matching its actual
+      scope, since there was no content in the scaffold to preserve.
 
 ## 3. Child Implementation
 
