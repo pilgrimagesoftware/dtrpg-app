@@ -8,7 +8,7 @@
 ## 2. Child Implementation Planning
 
 - [x] 2.1 Create Rust child change in `dtrpg-app/rust` for the gpui menu items, dialog, and browser-handoff submission, and verify its tasks.md references this parent change — done via `openspec/changes/shared-report-feature-bug` in `dtrpg-app/rust`, merged in pilgrimagesoftware/dtrpg-app.rs#243
-- [ ] 2.2 File a future-work note (or child change placeholder) in `dtrpg-app/swift` tracking Swift parity, without blocking this baseline on it
+- [x] 2.2 File a future-work note (or child change placeholder) in `dtrpg-app/swift` tracking Swift parity, without blocking this baseline on it — done via `openspec/changes/shared-report-feature-bug-swift-future-work` and pilgrimagesoftware/dtrpg-app.swift#3
 
 ## 3. Rollout Coordination
 
